@@ -124,14 +124,6 @@
     #info p {
         font-size: 25px;
     }
-
-    #hobbies {
-        padding-right: 100px;
-    }
-
-    #blandas {
-        padding-left: 100px;
-    }
 }
 
 @media (min-width: 1024px) {
