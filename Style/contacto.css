@@ -1,0 +1,57 @@
+#contacto {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+#contacto h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#contacto input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+}
+
+#contacto #btn {
+    font-family: inherit;
+    background-color: #1E3163;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+#contacto #msj {
+    font-family: inherit;
+    resize: none;
+    padding: 1.8em 1em;
+}
+
+#contenedor {
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+@media (min-width: 800px) {
+    #contacto {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #contacto {
+        max-width: 900px;
+    }
+
+    #contacto h3 {
+        font-size: 45px;
+    }
+}
