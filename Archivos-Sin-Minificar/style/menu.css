@@ -42,7 +42,7 @@ nav ul {
     list-style: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 770px) {
     nav {
         position: static;
         width: auto;

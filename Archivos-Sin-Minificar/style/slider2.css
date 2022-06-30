@@ -1,7 +1,7 @@
 .container2 {
-    width: 400px;
+    width: 240px;
     height: 100%;
-    max-height: 450px;
+    max-height: 200px;
 }
 
 .container2 p {
@@ -13,11 +13,18 @@
     list-style: none;
 }
 
+.slider2 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+}
+
 ul.slider2 {
     position: relative;
     width: 100%;
     max-width: 400px;
-    height: 270px;
+    height: 200px;
 }
 
 ul.slider2 li {
@@ -30,11 +37,12 @@ ul.slider2 li {
 }
 
 ul.slider2 li img {
-    width: auto;
-    max-width: 395px;
     height: auto;
-    max-height: 270px;
+    max-height: 200px;
+    width: auto;
+    max-width: 100px;
     padding: 5px;
+    border-radius: 9%;
 }
 
 ul.slider2 li:first-child {
@@ -59,10 +67,10 @@ ul.slider2 li:target {
     color: white;
     text-decoration: none;
     background-color: #1E3163;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
     border-radius: 100%;
     cursor: pointer;
 }
@@ -72,7 +80,32 @@ ul.slider2 li:target {
 }
 
 .proyecto2 {
-    font-size: 12px;
+    font-size: 10px;
+}
+
+@media (min-width: 400px) {
+    .container2 {
+        width: 380px;
+    }
+
+    .slider2 {
+        max-width: 380px;
+    }
+
+    .proyecto2 {
+        font-size: 15px;
+    }
+
+    ul.slider2 {
+        height: 200px;
+    }
+
+    .selector2 li a {
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
 }
 
 
@@ -100,12 +133,12 @@ ul.slider2 li:target {
     }
 
     ul.slider2 {
-        height: 590px;
+        height: 550px;
     }
 
     ul.slider2 li img {
         max-width: 960px;
-        max-height: 590px;
+        max-height: 560px;
         transform: translateX(90%);
     }
 }
