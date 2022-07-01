@@ -52,6 +52,11 @@
     flex-wrap: wrap;
 }
 
+#proyectos {
+    display: block;
+    justify-content: center;
+}
+
 #proyectos article {
     margin: 15px;  
 }
@@ -59,11 +64,11 @@
 #proyectos img {
     width: 100%;
     max-width: 500px;
+    cursor: pointer;
 }
 
 #proyectos img:hover {
     border-radius: 5%;
-    cursor: pointer;
     box-shadow: 0px 0px 5px 5px  #1E3163;
     -webkit-box-flex: 0px 0px 5px 5px #1E3163;
 }
@@ -71,6 +76,26 @@
 #kotlin img {
     width: 50%;
     transform: translate(50%);
+    cursor: pointer;
+}
+
+#proyectos .demo {
+    max-width: 100%;
+    max-height: 20px;    
+}
+
+#proyectos .demo h4 {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#kotlin .demo {
+    max-width: 100%;
+}
+
+#kotlin .demo h4 {
+    cursor: pointer;
+    font-size: 20px;
 }
 
 @media (min-width: 600px) {

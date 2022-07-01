@@ -18,8 +18,8 @@
 }
 
 body {
-    background: rgb(231,251,63);
-    background: radial-gradient(circle, rgba(231,251,63,0.41780462184873945) 0%, rgba(70,119,252,0.7987570028011204) 100%);
+    background: rgb(236,81,240);
+    background: linear-gradient(90deg, rgba(236,81,240,0.7315301120448179) 0%, rgba(81,131,255,0.4234068627450981) 94%);
 }
 
 html {

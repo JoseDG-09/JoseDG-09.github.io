@@ -137,3 +137,49 @@
         max-height: 800px;
     }
 }
+
+@media (min-width: 800px) and (max-height: 600px) {
+    .popup2 {
+        margin-top: 20px;
+        max-height: 410px;
+    }
+
+    .popup2 h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-height: 768px) {
+    .popup2 {
+        max-width: 900px;
+        margin-top: 80px;
+        max-height: 570px;
+    }
+
+    .popup2 h3 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1280px) and (max-height: 720px) {
+    .popup2 {
+        margin-top: 50px;
+        max-height: 520px;
+    }
+
+    .popup2 h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1280px) and (max-height: 960px) {
+    .popup2 {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1600px) and (max-height: 900px) {
+    .popup2 {
+        max-height: 710px;
+    }
+}
